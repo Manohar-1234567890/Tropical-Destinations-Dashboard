@@ -1,0 +1,53 @@
+.promo-card {
+  background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+  padding: 3rem;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(108, 92, 231, 0.3);
+  margin-bottom: 2rem;
+}
+
+.promo-badge {
+  display: inline-block;
+  background: #fdcb6e;
+  color: #2d3436;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.promo-card h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.promo-card h2 span {
+  color: #ffeaa7;
+}
+
+.promo-card p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.btn-book-promo {
+  padding: 0.8rem 2.5rem;
+  background-color: white;
+  color: #6c5ce7;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-book-promo:hover {
+  transform: scale(1.05);
+}
